@@ -15,7 +15,7 @@ return new class extends Migration
         $table->id();
         $table->string('name');
         $table->string('email')->unique();
-        $table->string('logo')->nullable(); // akan simpan nama file
+        $table->string('logo')->nullable(); 
         $table->string('website')->unique();
         $table->timestamps();
     });

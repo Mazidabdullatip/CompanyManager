@@ -1,4 +1,3 @@
-<!-- resources/views/companies/form.blade.php -->
 
 @csrf
 
